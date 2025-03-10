@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NEUST SLOC Student Registration Form</title>
+</head>
+<body>
+
+<body background = "https://png.pngtree.com/thumb_back/fh260/background/20210729/pngtree-abstract-circular-gray-white-gradient-background-image_754036.jpg" style = "background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover" >
+
+<form>
+  <center><h1>NEUST SLOC Student Registration Form</h1></center>
+<label for="photo">Student Image:</label>
+<input type="file" id="photo" name="photo"><br><br>
+    
+<label for="firstName">Student Name:</label>
+<input type="text" 
+id="firstName" 
+name="firstName" 
+placeholder="First Name">
+
+<input type="text" 
+id="lastName" 
+name="lastName" 
+placeholder="Last Name">
+<br><br>
+    
+
+
+
+<label for="address">Address:</label>
+<input type = "text" 
+id="address" 
+name="address" 
+placeholder="Complete address">
+<br><br>
+
+
+
+<label for="birth">Date of Birth:</label>
+<input type="date" 
+id="birth" 
+name="birth">
+<br><br>
+
+
+
+
+<label>Gender:</label>
+<input type="radio" 
+id="male" 
+name="gender" 
+value="male">
+<label for="male">Male</label>
+
+
+<input type="radio" 
+id="female" 
+name="gender" 
+value="female">
+<label for="female">Female</label>
+
+<input type="radio" 
+id="Other" 
+name="gender" 
+value="Other">
+<label for="Other">Other</label>
+<br><br>
+
+    
+<label for="contactNo">Contact No.:</label>
+<input type="text" 
+id="contactNo" 
+name="contactNo" 
+maxlength = 11>
+<br><br>
+    
+<label for="email">Email Address:</label>
+<input type="email" 
+id="email" 
+name="email"
+placeholder="example@gmail.com">
+<br><br>
+    
+
+
+<label for="course">Course:</label>
+<select id="course" name="course">
+<option value="IT">Information Technology</option>
+<option value="HM">Hospitality magement</option>
+<option value="SE">Secondary Education</option>
+<option value="BA">Business Administration</option>
+</select><br><br>
+    
+<label for="level">Year Level:</label>
+<select id="level" name="level">
+<option value="1">1st</option>
+<option value="2">2nd</option>
+<option value="3">3rd</option>
+<option value="4">4th</option>
+</select><br><br>
+    
+<label>Student Type:</label><br>
+<input type="checkbox"  
+class="radio"
+id="old" 
+name="studentType" 
+value="old">
+<label for="old">Old</label><br>
+
+
+<input type="checkbox" 
+class="radio"
+id="new" 
+name="studentType" 
+value="new">
+<label for="new">New</label><br>
+
+
+<input type="checkbox" 
+class="radio"
+id="transferee" 
+name="studentType" 
+value="transferee">
+<label for="transferee">Transferee</label><br>
+
+
+<input type="checkbox" 
+class="radio"
+id="returning" 
+name="studentType" 
+value="returning">
+<label for="returning">Returning</label><br><br> 
+
+
+<table bgcolor = "black" empty-cells: show; border: 2px solid red>
+<tr bgcolor = "white"> 
+<th>Name</th>
+<th>Course & Yr Level</th>
+<th>Student Type</th>
+</tr>
+<tr bgcolor= "white" empty-cells: show;>
+
+<td>jonathan franco</td>
+<td>BSIT - 1A</td>
+<td>New</td>
+
+</tr>
+</table><br>
+<input type="reset" value="Clear Data">
+<input type="submit" value = "Submit Registration">
+
+</form>
+
+</body>
+</html>
